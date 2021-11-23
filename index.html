@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./css/styles.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<!--ionicos-->
+	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+	<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700;800&display=swap"
+		rel="stylesheet">
+	<title>Acme | Store</title>
+</head>
+
+<body>
+
+	<!-- Header section -->
+	<header class="header active__logo">
+		<nav class="header__nav">
+			<div class="logo"><span>ACME</span></div>
+			<div class="menu__mobile"><ion-icon name="menu"></ion-icon></div>
+			<ul class="list__ul">
+				<li><a href="">Inicio</a></li>
+				<li><a href="">Ayuda</a></li>
+				<li><a href="">Servicio al cliente</a></li>
+				<li><a href="registrarse.html">Registrarse</a></li>
+			</ul>
+		</nav>
+	</header>
+	<!-- Banner section -->
+	<section class="banner">
+		<div class="banner__main">
+			<div class="banner__title">
+				<h3>ACME <span id="text"></span></h3>
+			</div>
+			<P>Somos la empresa número uno en servicios de publicidad y ventas <br/> 
+				de la ciudad de sincelejo, estamos dispuesto a expandir tu <br />
+				negocio, y a recibir nuevos clientes.
+			</P>
+			
+			<a href="login.html" class="banner__btn">Ingresar</a>
+			
+		</div>
+		<div class="banner__img">
+			<img src="./images/fondo.svg"/>
+			<img class="banner__img--animation" src="./images/cohete.png" />
+		</div>
+
+	</section>
+
+	<!-- Services -->
+	<section class="services">
+		<div class="card">
+			<div class="icono"><ion-icon name="shield-checkmark-outline"></ion-icon></div>
+			<div class="description">Servicio seguro</div>
+		</div>
+		<div class="card">
+			<div class="icono"><ion-icon name="wifi-outline"></ion-icon></div>
+			<div class="description">Conecta con más personas</div>
+		</div>
+		<div class="card">
+			<div class="icono"><ion-icon name="chatbubbles"></ion-icon></div>
+			<div class="description">Atención en tiempo real</div>
+		</div>
+		<div class="card">
+			<div class="icono"><ion-icon name="time-outline"></ion-icon></div>
+			<div class="description">24 horas todos los dias</div>
+		</div>
+	</section>
+	<!-- Video introduction -->
+	<section class="video">
+		<div class="video__main">
+			<iframe width="650" height="315" src="https://www.youtube.com/embed/Rgx8dpiPwpA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
+	</section>
+	<!-- Loaders -->
+	<section class="loader" id="loader">
+		<div class="lds-ellipsis"><div></div><div></div><div></div><div></div></div>
+	</section>
+	
+	<footer class="footer">
+		<ul>
+			<li><a href=""><ion-icon name="logo-facebook"></ion-icon></a></li>
+			<li><a href=""><ion-icon name="logo-instagram"></ion-icon></a></li>
+			<li><a href=""><ion-icon name="logo-youtube"></ion-icon></a></li>
+			<li><a href=""><ion-icon name="logo-twitter"></ion-icon></a></li>
+		</ul>
+	</footer>
+	
+	<script src="./js/script.js"></script>
+</body>
+
+</html>

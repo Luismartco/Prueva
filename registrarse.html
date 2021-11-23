@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./css/styles.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<!--ionicos-->
+	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+	<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700;800&display=swap"
+		rel="stylesheet">
+	<title>Acme | Registro</title>
+</head>
+
+<body>
+
+	<!-- Header section -->
+	<header class="header active__logo">
+		<nav class="header__nav">
+			<div class="logo"><span>ACME</span></div>
+			<div class="menu__mobile"><ion-icon name="menu"></ion-icon></div>
+			<ul class="list__ul">
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="">Ayuda</a></li>
+				<li><a href="">Servicio al cliente</a></li>
+				<li><a href="registrarse.html">Registrarse</a></li>
+			</ul>
+		</nav>
+
+	</header>
+        <!-- Registrarse form -->
+        <section class="registrarse">
+            <form>
+                <label>Nombre usuario</label><br>
+                <div class="input__div">
+                    <div class="input__icon">
+                        <ion-icon name="person-circle-outline"></ion-icon>
+                    </div>
+                    <input type="text" placeholder="Nombre de usuario"/>
+                </div>
+                <label>Numero de telefono</label><br>
+                <div class="input__div">
+                    <div class="input__icon">
+                        <ion-icon name="call"></ion-icon>
+                    </div>
+                    <input type="text" placeholder="Telefono"/>
+                </div>
+                <label>Fecha de nacimiento</label><br>
+                <div class="input__div">
+                    <div class="input__icon">
+                        <ion-icon name="apps"></ion-icon>
+                    </div>
+                    <input type="date" placeholder="Date"/>
+                </div>
+                <label>Numero de identificacion</label><br>
+                <div class="input__div">
+                    <div class="input__icon">
+                        <ion-icon name="person"></ion-icon>
+                    </div>
+                    <input type="text" placeholder="ID"/>
+                </div>
+                <label>Correo</label><br>
+                <div class="input__div">
+                    <div class="input__icon">
+                        <ion-icon name="mail"></ion-icon>
+                    </div>
+                    <input type="text" placeholder="Correo"/>
+                </div>
+                <label>Contraseña</label><br>
+                <div class="input__div">
+                    <div class="input__icon">
+                        <ion-icon name="eye-off"></ion-icon>
+                    </div>
+                    <input type="text" placeholder="Contraseña"/>
+                </div>
+                <label>Confirme su contraseña</label><br>
+                <div class="input__div">
+                    <div class="input__icon">
+                        <ion-icon name="eye-off"></ion-icon>
+                    </div>
+                    <input type="text" placeholder="Contraseña"/>
+                </div>
+                <button type="submit" class="btn__register">Registrarse</button>
+				<a href="login.html" class="ancla">¿ya tienes cuenta?</a>
+            </form>
+        </section>
+	
+	<!-- Loaders -->
+	<section class="loader" id="loader">
+		<div class="lds-ellipsis"><div></div><div></div><div></div><div></div></div>
+	</section>
+	
+	<footer class="footer">
+		<ul>
+			<li><a href=""><ion-icon name="logo-facebook"></ion-icon></a></li>
+			<li><a href=""><ion-icon name="logo-instagram"></ion-icon></a></li>
+			<li><a href=""><ion-icon name="logo-youtube"></ion-icon></a></li>
+			<li><a href=""><ion-icon name="logo-twitter"></ion-icon></a></li>
+		</ul>
+	</footer>
+	
+	<script src="./js/script.js"></script>
+</body>
+
+</html>
